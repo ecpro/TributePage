@@ -71,39 +71,28 @@ button {}
     top:10%;
 }
 
-.btn {
-    width: 170px;
-    font-weight: 300;
+.hero .details {
+    width
     padding-right: 3px;
     display: block;
-	margin-top: 200px;
+	margin-top: 250px;
     color : #de3131;
     letter-spacing: 2px;
-    padding-bottom: 3px;
-    border-right: 2px solid #de3131; 
-    border-bottom: 2px solid #de3131;
-    transition: 0.3s ease-in;
-}
-
-.hero-text {
-	font-weight: 200;
+    border-right: 1px solid #de3131; 
 }
 
 /**----------------------------
     subheader
 -------------------------------**/
 .sub-header {
-    color : #8f97ea;
     margin : 0 0 0 0;
     padding: 0 0 0 0;
     width: 1114px;
-    font-size: 40px;
-    font-weight :200;
+    font-size: 30px;
     position: absolute;
     top: 80%;
-    transform: translateY(-30%);
-    letter-spacing: 2px;
-    text-align: justify;
+    color: #fff;
+    transform: translateY(-10%);
 }
 
 
@@ -116,14 +105,5 @@ main {
 }
 
 
-/**----------------------------
-    btn
--------------------------------**/
-
-.btn:hover, .btn:focus {
-    color: #fff;
-    border-right: 2px solid #fff; 
-    border-bottom: 2px solid #fff;
-}
 
 
