@@ -28,7 +28,9 @@ h6 {
     padding: 0px;
 }
 
-p {}
+p {
+    padding-bottom: 20px;
+}
 
 a {
     text-decoration: none;
@@ -68,37 +70,25 @@ button {}
     font-size: 30px;
     font-weight: 100;
     position: absolute;
-    top:10%;
-}
-
-.btn {
-    width: 170px;
-    font-weight: 300;
-    padding-right: 3px;
-    display: block;
-	margin-top: 200px;
-    color : #de3131;
-    letter-spacing: 2px;
-    padding-bottom: 3px;
-    border-right: 2px solid #de3131; 
-    border-bottom: 2px solid #de3131;
-    transition: 0.3s ease-in;
+    top: 10%;
 }
 
 .hero-text {
-	font-weight: 200;
+    font-weight: 200;
 }
+
 
 /**----------------------------
     subheader
 -------------------------------**/
+
 .sub-header {
-    color : #8f97ea;
-    margin : 0 0 0 0;
+    color: #8f97ea;
+    margin: 0 0 0 0;
     padding: 0 0 0 0;
     width: 1114px;
     font-size: 40px;
-    font-weight :200;
+    font-weight: 200;
     position: absolute;
     top: 80%;
     transform: translateY(-30%);
@@ -120,10 +110,49 @@ main {
     btn
 -------------------------------**/
 
-.btn:hover, .btn:focus {
+.btn {
+    width: 140px;
+    font-weight: 300;
+    padding-right: 3px;
+    display: block;
+    margin-top: 200px;
+    color: #de3131;
+    letter-spacing: 2px;
+    padding-bottom: 3px;
+    border-right: 2px solid #de3131;
+    border-bottom: 2px solid #de3131;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
     color: #fff;
-    border-right: 2px solid #fff; 
+    border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
 }
 
 
+/**----------------------------
+  details
+-------------------------------**/
+
+.details {
+    color: #565656;
+    padding-top: 20px;
+    background-color: #d8daeb;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.details p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.post-script {
+	font-weight: 100px;
+    text-transform: lowercase;
+    text-align: center;
+}
